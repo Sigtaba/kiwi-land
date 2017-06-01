@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Materialize Exploration</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Kiwi-Land</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">About</a></li>
+            <li><a href="badges.html">Contact</a></li>
+            <li><a href="collapsible.html">Amenities</a></li>
+            <li><a class="waves-effect waves-light btn"><i class="material-icons left">loyalty</i>Book Now</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="sass.html">About</a></li>
+      <li><a href="badges.html">Contact</a></li>
+      <li><a href="collapsible.html">Amenities</a></li>
+      <li><a class="waves-effect waves-light btn"><i class="material-icons left">loyalty</i>Book Now</a></li>
+    </ul>
+    <img src="img/2.png" alt="" />
+    <div class="container">
+      <div class="row" id="title">
+        <div class="col s12 center-align">
+          <h2>Visit Beautiful New Zealand</h2>
+          <h3>Specials on all packages going on now!</h3>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons left">loyalty</i>Book Now</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/1.jpg">
+              <span class="card-title">Sheeps's</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">loyalty</i></a>
+            </div>
+            <div class="card-content">
+              <h3>$1450</h3>
+              <h4>Includes:</h4>
+              <ul>
+                <li>2 days / 5 nights</li>
+                <li>Sheep's milk</li>
+                <li>Lovely cot in old army barracks</li>
+                <li>Blanket*</li>
+              </ul>
+              <small>*Blanket availability subject to sheep usage</small>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/4.jpg">
+              <span class="card-title">Goats's</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">loyalty</i></a>
+            </div>
+            <div class="card-content">
+              <h3>$2712</h3>
+              <h4>Includes:</h4>
+              <ul>
+                <li>8 days / 2 nights</li>
+                <li>Sheeps's package included</li>
+                <li>Bills's spare bedroom</li>
+                <li>Blanket**</li>
+              </ul>
+              <small>**Blanket availability priority given to Goats's package visitors</small>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/3.jpg">
+              <span class="card-title">Premium Package</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">loyalty</i></a>
+            </div>
+            <div class="card-content">
+              <h3>$21*</h3>
+              <h4>Includes:</h4>
+              <ul>
+                <li>1 days / 1 night</li>
+                <li>Llama milk bottle service</li>
+                <li>Hammock strapped between 2 horses</li>
+                <li>Blanket</li>
+              </ul>
+              <small>*Price is actually $235337.90</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <form class="col m12 l6" action="index.html" method="post">
+          <h3>Contact Us:</h3>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">First Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Email</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Phone</label>
+            </div>
+          </div>
+          <button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+        <div class="col m12 l6">
+          <h3>Reviews:</h3>
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <img src="img/person-1.jpg" alt="" class="circle">
+              <span class="title">Zombie Joe</span>
+              <p>Premium Package<br>
+                 I thought the price was $21 but it wasnt.  After losing both kidneys to the repo man I died.  Crushing debt aside, I am satified with my purchase.
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="img/person-2.jpg" alt="" class="circle">
+              <span class="title">Sally Flannagin</span>
+              <p>Goats's <br>
+                 i like tranes!!!
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="img/person-3.jpg" alt="" class="circle">
+              <span class="title">Dolores Clayborn</span>
+              <p>Sheeps's <br>
+                 I was able to obtain a blanket for my last night and it turns out I am highly allergic to sheep's hair. But the pool boy Freddie was very kind to me.  He helped me plug in my email address. Ask for Freddie, hes a very nice boy.
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="img/person-4.jpg" alt="" class="circle">
+              <span class="title">Jessica Rabbit</span>
+              <p>Goats's <br>
+                Bill's room smelled like bad beef which is the only reason why this didnt get just one star.
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
